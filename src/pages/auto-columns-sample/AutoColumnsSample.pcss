@@ -1,0 +1,59 @@
+.content1 {
+  display: grid;
+  grid-gap: 0.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: 0.5fr;
+  color: white;
+  font: 2.5rem sans-serif;
+  text-align: center;
+  height: 50vh;
+  
+  & div::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+  }
+}
+
+.content2 {
+  display: grid;
+  grid-gap: 0.25rem;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: 0.5fr;
+  color: white;
+  font: 2.5rem sans-serif;
+  text-align: center;
+  height: 50vh;
+  
+  & div::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+  }
+}
+
+.element1 {
+  background: red;
+}
+
+.element2 {
+  background: purple;
+}
+
+.element3 {
+  background: grey;
+}
+
+.element4 {
+  background: darkgoldenrod;
+}
+
+.element5 {
+  background: greenyellow;
+}
+
+.element6 {
+  background: forestgreen;
+}

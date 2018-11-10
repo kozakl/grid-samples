@@ -1,0 +1,41 @@
+.content {
+  display: grid;
+  grid-gap: 0.25rem;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 3rem auto 3rem;
+  grid-template-areas:
+    'm m h h h h h h h h h h'
+    'm m c c c c c c c c c c'
+    'f f f f f f f f f f f .';
+  color: white;
+  font: 1.75rem sans-serif;
+  text-align: center;
+  height: 100vh;
+  
+  & div::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+  }
+}
+
+.header {
+  grid-area: h;
+  background: red;
+}
+
+.menu {
+  grid-area: m;
+  background: yellowgreen;
+}
+
+.container {
+  grid-area: c;
+  background: purple;
+}
+
+.footer {
+  grid-area: f;
+  background: green;
+}

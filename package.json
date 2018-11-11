@@ -5,7 +5,6 @@
     "prebuild": "npm run clean-public",
     "build": "webpack --config webpack.config.prod.js",
     "deploy": "node -r esm ./tasks/deploy.js ~/Public/kozakl.bitbucket.org/",
-    "make-images": "node -r esm ./tasks/make-images.js assets/images.json",
     "clean-cache": "node -r esm ./tasks/clean-cache.js",
     "clean-public": "node -r esm ./tasks/clean-public.js",
     "test": "jest --coverage",

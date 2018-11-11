@@ -22,22 +22,22 @@ export default function Content()
                     <option value="#/align-content">Align Content</option>
                     <option value="#/areas">Areas</option>
                     <option value="#/auto-column">Auto Column</option>
-                    <option value="#/basic-sample">Basic Sample</option>
-                    <option value="#/items-positions-sample">Items Positions</option>
-                    <option value="#/layout-sample">Layout</option>
-                    <option value="#/lines-name-sample">Lines Name</option>
-                    <option value="#/repeat-sample">Repeat</option>
+                    <option value="#/basic">Basic</option>
+                    <option value="#/items-positions">Items Positions</option>
+                    <option value="#/layout">Layout</option>
+                    <option value="#/lines-name">Lines Name</option>
+                    <option value="#/repeat">Repeat</option>
                 </select>
                 <Switch>
                     <Redirect from="/" to='/align-content' exact/>
                     <Route path="/align-content" component={AlignContentSample}/>
                     <Route path="/areas" component={AreasSample}/>
                     <Route path="/auto-column" component={AutoColumnsSample}/>
-                    <Route path="/basic-sample" component={BasicSample}/>
-                    <Route path="/items-positions-sample" component={ItemsPositionsSample}/>
-                    <Route path="/layout-sample" component={LayoutSample}/>
-                    <Route path="/lines-name-sample" component={LinesNameSample}/>
-                    <Route path="/repeat-sample" component={RepeatSample}/>
+                    <Route path="/basic" component={BasicSample}/>
+                    <Route path="/items-positions" component={ItemsPositionsSample}/>
+                    <Route path="/layout" component={LayoutSample}/>
+                    <Route path="/lines-name" component={LinesNameSample}/>
+                    <Route path="/repeat" component={RepeatSample}/>
                 </Switch>
             </>
         </HashRouter>

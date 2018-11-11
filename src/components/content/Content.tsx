@@ -7,6 +7,7 @@ import {AreasSample} from '../../pages/areas-sample';
 import {AutoColumnsSample} from '../../pages/auto-columns-sample';
 import {BasicSample} from '../../pages/basic-sample';
 import {ItemsPositionsSample} from '../../pages/items-positions-sample';
+import {LayoutSample} from '../../pages/layout-sample';
 
 export default function Content()
 {
@@ -23,6 +24,7 @@ export default function Content()
                     <option value="#/auto-column">Auto Column</option>
                     <option value="#/basic-sample">Basic Sample</option>
                     <option value="#/items-positions-sample">Items Positions</option>
+                    <option value="#/layout-sample">Layout</option>
                 </select>
                 <Switch>
                     <Redirect from="/" to='/align-content' exact/>
@@ -32,6 +34,7 @@ export default function Content()
                     <Route path="/auto-column" component={AutoColumnsSample}/>
                     <Route path="/basic-sample" component={BasicSample}/>
                     <Route path="/items-positions-sample" component={ItemsPositionsSample}/>
+                    <Route path="/layout-sample" component={LayoutSample}/>
                 </Switch>
             </>
         </HashRouter>

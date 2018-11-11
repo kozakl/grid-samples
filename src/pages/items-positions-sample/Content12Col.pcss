@@ -1,0 +1,39 @@
+.content {
+  display: grid;
+  grid-gap: 0.25rem;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 3rem auto 3rem;
+  color: white;
+  font: 1.75rem sans-serif;
+  text-align: center;
+  height: 100%;
+  
+  & div::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+  }
+}
+
+.header {
+  grid-column: 3 / 13;
+  background: red;
+}
+
+.menu {
+  grid-column: 1 / 3;
+  /*autoprefixer: off*/
+  grid-row: 1 / 3;
+  background: yellowgreen;
+}
+
+.container {
+  grid-column: 3 / span 10;
+  background: purple;
+}
+
+.footer {
+  grid-column: 1 / -1;
+  background: green;
+}

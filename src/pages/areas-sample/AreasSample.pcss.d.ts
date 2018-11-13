@@ -1,8 +1,5 @@
 export const content:string;
-export const element1:string;
-export const element2:string;
-export const element3:string;
-export const element4:string;
-export const element5:string;
-export const element6:string;
-export const element7:string;
+export const header:string;
+export const menu:string;
+export const container:string;
+export const footer:string;

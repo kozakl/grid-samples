@@ -1,5 +1,5 @@
-export const content1:string;
-export const content2:string;
+export const gridFit:string;
+export const gridFill:string;
 export const element1:string;
 export const element2:string;
 export const element3:string;

@@ -1,12 +1,11 @@
-.content {
+.itemsPositions {
   display: grid;
   grid-gap: 0.25rem;
   grid-template-columns: 1fr 5fr;
   grid-template-rows: 3rem auto 3rem;
-  color: white;
-  font: 1.75rem sans-serif;
+  font-size: 1.75rem;
   text-align: center;
-  height: 100%;
+  height: 100vh;
   
   & div::before {
     content: '';
@@ -22,12 +21,11 @@
 }
 
 .menu {
-  /*autoprefixer: off*/
   grid-row: 1 / 3;
   background: yellowgreen;
 }
 
-.container {
+.content {
   grid-column: 2 / 3;
   background: purple;
 }

@@ -1,8 +1,5 @@
-/**
- * @author kozakluke@gmail.com
- */
-export const content:string;
+export const layout:string;
 export const header:string;
 export const menu:string;
-export const container:string;
+export const content:string;
 export const footer:string;

@@ -1,4 +1,4 @@
-export const content:string;
+export const repeatSample:string;
 export const element1:string;
 export const element2:string;
 export const element3:string;

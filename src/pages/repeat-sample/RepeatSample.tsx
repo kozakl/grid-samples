@@ -4,7 +4,7 @@ import * as style from './RepeatSample.pcss';
 export default function RepeatSample()
 {
     return (
-        <div className={style.content}>
+        <div className={style.repeatSample}>
             <div className={style.element1}>1</div>
             <div className={style.element2}>2</div>
             <div className={style.element3}>3</div>

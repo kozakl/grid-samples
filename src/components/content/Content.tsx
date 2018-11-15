@@ -17,6 +17,7 @@ export default function Content()
             <>
                 <select
                     style={{position: 'fixed', top: '0'}}
+                    defaultValue={location.hash}
                     onChange={(event)=>
                         window.location.href = event.target.value}>
                     <option value="#/align-content">Align Content</option>
